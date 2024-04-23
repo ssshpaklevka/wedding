@@ -2,36 +2,39 @@
     0% {opacity: 0;}
     100% {opacity: 1;}
   }
-  
-  .fadeInViewBlock {
-    animation: fadeIn 0s ease-in-out;
-  }
 
   .fadeInOne {
+    animation-fill-mode: backwards;
     animation: fadeIn 2s ease-in-out;
   }
 
   .fadeInOneLine {
+    animation-fill-mode: backwards;
     animation: fadeIn 2.5s ease-in-out;
   }
 
   .fadeInTwo {
+    animation-fill-mode: backwards;
     animation: fadeIn 2.7s ease-in-out;
   }
 
   .fadeInTwoLine {
+    animation-fill-mode: backwards;
     animation: fadeIn 3.2s ease-in-out;
   }
 
   .fadeInThree {
+   animation-fill-mode: backwards;
     animation: fadeIn 3.1s ease-in-out;
   }
 
   .fadeInThreeLine {
+    animation-fill-mode: backwards;
     animation: fadeIn 3.6s ease-in-out;
   }
 
   .fadeInFour {
+    animation-fill-mode: backwards;
     animation: fadeIn 4.1s ease-in-out;
   }
 
