@@ -38,7 +38,10 @@
     animation: fadeIn 4.1s ease-in-out;
   }
 
-  
+  .waveContainer{
+    position: relative;
+      background-color: white; 
+  }
 
 
 .programDay {

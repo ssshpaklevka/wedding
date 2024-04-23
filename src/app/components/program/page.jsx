@@ -18,7 +18,7 @@ export default function Program() {
     triggerOnce: true,
   })
   return (
-    <div>
+    <div className={styles.waveContainer}>
       <Head>
         <link
           href='https://fonts.googleapis.com/css2?family=Sedan&display=swap'
