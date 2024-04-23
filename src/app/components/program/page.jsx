@@ -5,7 +5,16 @@ import styles from "./page.module.css"
 import { useInView } from "react-intersection-observer"
 
 export default function Program() {
-  const { ref, inView } = useInView({
+  const { ref: refOne, inView: inViewOne } = useInView({
+    triggerOnce: true,
+  })
+  const { ref: refTwo, inView: inViewTwo } = useInView({
+    triggerOnce: true,
+  })
+  const { ref: refThree, inView: inViewThree } = useInView({
+    triggerOnce: true,
+  })
+  const { ref: refFour, inView: inViewFour } = useInView({
     triggerOnce: true,
   })
   return (
@@ -31,16 +40,11 @@ export default function Program() {
       <br />
       <br />
       <br />
-      <div
-        ref={ref}
-        className={`${styles.viewBlock} ${
-          inView ? styles.fadeInViewBlock : ""
-        }`}
-      >
+      <div className={styles.viewBlock}>
         <div
-          ref={ref}
+          ref={refOne}
           className={` ${styles.timeFullBlockOne} ${
-            inView ? styles.fadeInOne : ""
+            inViewOne ? styles.fadeInOne : ""
           }`}
         >
           <p className={styles.timeText}>15:00</p>
@@ -67,16 +71,16 @@ export default function Program() {
         <div className={styles.gatheringGuests}>
           <p
             className={`${styles.blackLine} ${
-              inView ? styles.fadeInOneLine : ""
+              inViewOne ? styles.fadeInOneLine : ""
             }`}
           ></p>
         </div>
 
         <br />
         <div
-          ref={ref}
+          ref={refTwo}
           className={` ${styles.timeFullBlockTwo} ${
-            inView ? styles.fadeInTwo : ""
+            inViewTwo ? styles.fadeInTwo : ""
           }`}
         >
           <p className={styles.timeText}>16:00</p>
@@ -104,16 +108,16 @@ export default function Program() {
         <div className={styles.gatheringGuests}>
           <p
             className={`${styles.blackLine} ${
-              inView ? styles.fadeInTwoLine : ""
+              inViewTwo ? styles.fadeInTwoLine : ""
             }`}
           ></p>
         </div>
 
         <br />
         <div
-          ref={ref}
+          ref={refThree}
           className={` ${styles.timeFullBlockThree} ${
-            inView ? styles.fadeInThree : ""
+            inViewThree ? styles.fadeInThree : ""
           }`}
         >
           <p className={styles.timeText}>17:00</p>
@@ -141,16 +145,16 @@ export default function Program() {
         <div className={styles.gatheringGuests}>
           <p
             className={`${styles.blackLine} ${
-              inView ? styles.fadeInThreeLine : ""
+              inViewThree ? styles.fadeInThreeLine : ""
             }`}
           ></p>
         </div>
 
         <br />
         <div
-          ref={ref}
+          ref={refFour}
           className={` ${styles.timeFullBlockFour} ${
-            inView ? styles.fadeInFour : ""
+            inViewFour ? styles.fadeInFour : ""
           }`}
         >
           <p className={styles.timeText}>23:00</p>
