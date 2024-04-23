@@ -6,6 +6,10 @@
   .fadeInOne {
     animation-fill-mode: backwards;
     animation: fadeIn 2s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   .fadeInOneLine {
@@ -16,6 +20,10 @@
   .fadeInTwo {
     animation-fill-mode: backwards;
     animation: fadeIn 2.7s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   .fadeInTwoLine {
@@ -56,20 +64,16 @@
 }
 
 .timeFullBlockOne {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .timeFullBlockTwo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  /* opacity: 1; может быть это поможет хз */
+
 }
 
 .timeFullBlockThree {
+ 
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -77,6 +81,7 @@
 }
 
 .timeFullBlockFour {
+
     display: flex;
     flex-direction: row;
     justify-content: center;
