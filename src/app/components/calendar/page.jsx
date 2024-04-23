@@ -108,36 +108,37 @@ export default function Calendar() {
         />
         <br />
         <br />
-
-        <div className={styles.blockCountdown}>
-          <div className={styles.timer}>
-            <p className={styles.textWedding}>ДО НАЧАЛА СВАДЬБЫ ОСТАЛОСЬ:</p>
-            <br />
-            {timeLeft ? (
-              <div className={styles.countdownBlock}>
-                <div className={styles.countdownTimer}>
-                  <p className={styles.textTimer}>{timeLeft.days}</p>
-                  <p className={styles.nameTimer}>Дней</p>
+        <div className={styles.blockCountdownWhite}>
+          <div className={styles.blockCountdown}>
+            <div className={styles.timer}>
+              <p className={styles.textWedding}>ДО НАЧАЛА СВАДЬБЫ ОСТАЛОСЬ:</p>
+              <br />
+              {timeLeft ? (
+                <div className={styles.countdownBlock}>
+                  <div className={styles.countdownTimer}>
+                    <p className={styles.textTimer}>{timeLeft.days}</p>
+                    <p className={styles.nameTimer}>Дней</p>
+                  </div>
+                  <p className={styles.blackLine}></p>
+                  <div className={styles.countdownTimer}>
+                    <p className={styles.textTimer}>{timeLeft.hours}</p>
+                    <p className={styles.nameTimer}>Часов</p>
+                  </div>
+                  <p className={styles.blackLine}></p>
+                  <div className={styles.countdownTimer}>
+                    <p className={styles.textTimer}>{timeLeft.minutes}</p>
+                    <p className={styles.nameTimer}>Минут</p>
+                  </div>
+                  <p className={styles.blackLine}></p>
+                  <div className={styles.countdownTimer}>
+                    <p className={styles.textTimer}>{timeLeft.seconds}</p>
+                    <p className={styles.nameTimer}>Секунд</p>
+                  </div>
                 </div>
-                <p className={styles.blackLine}></p>
-                <div className={styles.countdownTimer}>
-                  <p className={styles.textTimer}>{timeLeft.hours}</p>
-                  <p className={styles.nameTimer}>Часов</p>
-                </div>
-                <p className={styles.blackLine}></p>
-                <div className={styles.countdownTimer}>
-                  <p className={styles.textTimer}>{timeLeft.minutes}</p>
-                  <p className={styles.nameTimer}>Минут</p>
-                </div>
-                <p className={styles.blackLine}></p>
-                <div className={styles.countdownTimer}>
-                  <p className={styles.textTimer}>{timeLeft.seconds}</p>
-                  <p className={styles.nameTimer}>Секунд</p>
-                </div>
-              </div>
-            ) : (
-              <p>Подготавливаем таймер...</p>
-            )}
+              ) : (
+                <p>Подготавливаем таймер...</p>
+              )}
+            </div>
           </div>
         </div>
       </div>

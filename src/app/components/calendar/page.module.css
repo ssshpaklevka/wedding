@@ -27,6 +27,11 @@
     font-weight: 500;
 }
 
+.blockCountdownWhite {
+    background-color: white;
+    padding: 8px;
+}
+
 .blockCountdown {
     background-color: white;
     border: 3px solid #E4C868;
