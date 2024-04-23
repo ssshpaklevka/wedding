@@ -1,0 +1,179 @@
+"use client"
+import Head from "next/head"
+import Image from "next/image"
+import styles from "./page.module.css"
+import { useInView } from "react-intersection-observer"
+
+export default function Program() {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+  })
+  return (
+    <div>
+      <Head>
+        <link
+          href='https://fonts.googleapis.com/css2?family=Sedan&display=swap'
+          rel='stylesheet'
+        />
+        <link
+          href='https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'
+          rel='stylesheet'
+        />
+
+        <link
+          href='https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap'
+          rel='stylesheet'
+        />
+      </Head>
+      <div className={styles.programDay}>
+        <p className={styles.textProgram}>ПРОГРАММА ДНЯ</p>
+      </div>
+      <br />
+      <br />
+      <br />
+      <div
+        ref={ref}
+        className={`${styles.viewBlock} ${
+          inView ? styles.fadeInViewBlock : ""
+        }`}
+      >
+        <div
+          ref={ref}
+          className={` ${styles.timeFullBlockOne} ${
+            inView ? styles.fadeInOne : ""
+          }`}
+        >
+          <p className={styles.timeText}>15:00</p>
+          <br />
+          <div className={styles.gatheringGuests}>
+            <div className={styles.textImg}>
+              <Image
+                src={"/img/calendarImg.svg"}
+                alt='ringsImg'
+                width={70}
+                height={70}
+              />
+            </div>
+            <div className={styles.programInfo}>
+              <p className={styles.programTextUp}>СБОР ГОСТЕЙ</p>
+              <p className={styles.programText}>
+                просим взять с собой хорошее настроение и свои улыбки
+              </p>
+            </div>
+          </div>
+        </div>
+        <br />
+
+        <div className={styles.gatheringGuests}>
+          <p
+            className={`${styles.blackLine} ${
+              inView ? styles.fadeInOneLine : ""
+            }`}
+          ></p>
+        </div>
+
+        <br />
+        <div
+          ref={ref}
+          className={` ${styles.timeFullBlockTwo} ${
+            inView ? styles.fadeInTwo : ""
+          }`}
+        >
+          <p className={styles.timeText}>16:00</p>
+          <br />
+          <div className={styles.gatheringGuests}>
+            <div className={styles.textImg}>
+              <Image
+                src={"/img/ringsImg.svg"}
+                alt='ringsImg'
+                width={70}
+                height={70}
+              />
+            </div>
+            <div className={styles.programInfo}>
+              <p className={styles.programTextUp}>РЕГИСТРАЦИЯ БРАКА</p>
+
+              <p className={styles.programText}>
+                просим взять с собой хорошее настроение и свои улыбки
+              </p>
+            </div>
+          </div>
+        </div>
+        <br />
+
+        <div className={styles.gatheringGuests}>
+          <p
+            className={`${styles.blackLine} ${
+              inView ? styles.fadeInTwoLine : ""
+            }`}
+          ></p>
+        </div>
+
+        <br />
+        <div
+          ref={ref}
+          className={` ${styles.timeFullBlockThree} ${
+            inView ? styles.fadeInThree : ""
+          }`}
+        >
+          <p className={styles.timeText}>17:00</p>
+          <br />
+          <div className={styles.gatheringGuests}>
+            <div className={styles.textImg}>
+              <Image
+                src={"/img/instrumentationImg.svg"}
+                alt='instrumentationImg'
+                width={70}
+                height={70}
+              />
+            </div>
+            <div className={styles.programInfo}>
+              <p className={styles.programTextUp}>БАНКЕТ</p>
+
+              <p className={styles.programText}>
+                время вкусной еды, танцев и развлечения
+              </p>
+            </div>
+          </div>
+        </div>
+        <br />
+
+        <div className={styles.gatheringGuests}>
+          <p
+            className={`${styles.blackLine} ${
+              inView ? styles.fadeInThreeLine : ""
+            }`}
+          ></p>
+        </div>
+
+        <br />
+        <div
+          ref={ref}
+          className={` ${styles.timeFullBlockFour} ${
+            inView ? styles.fadeInFour : ""
+          }`}
+        >
+          <p className={styles.timeText}>23:00</p>
+          <br />
+          <div className={styles.gatheringGuests}>
+            <div className={styles.textImg}>
+              <Image
+                src={"/img/carImg.svg"}
+                alt='carImg'
+                width={70}
+                height={70}
+              />
+            </div>
+            <div className={styles.programInfo}>
+              <p className={styles.programTextUp}>ЗАВЕРШЕНИЕ ВЕЧЕРА</p>
+
+              <p className={styles.programText}>
+                к сожалению, даже такой прекрасный день может закончиться
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}

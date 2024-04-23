@@ -1,0 +1,116 @@
+.waveContainer {
+    background-image: url('/img/backImageForm.svg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.questProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 525px;
+}
+
+.formProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 525px;
+}
+
+.dressCode {
+    font-size: clamp(35px,3vw,50px);
+    font-family: 'Sedan', serif;
+    font-weight: 400;
+}
+
+.textForm {
+    font-size: clamp(16px,3vw,25px);
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.textDress {
+    font-size: clamp(16px,3vw,22px);
+    font-family: 'Raleway',Arial,sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.inputForm {
+    border-radius: 25px;
+    width: 400px;
+    height: 50px;
+}
+
+.buttonForm {
+    max-width: 525px;
+    border-radius: 25px;
+    width: 400px;
+    height: 50px;
+    background-color: #C3B4A1;
+    font-size: clamp(16px,3vw,25px);
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+@media (max-width: 650px) { 
+    .questProfile {
+        max-width: 400px;
+    }
+
+    .formProfile {
+        max-width: 400px;
+    }
+
+    .inputForm {
+        width: 350px;
+        height: 50px;
+    }
+
+    .buttonForm {
+        width: 350px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .questProfile {
+        max-width: 310px;
+    }
+
+    .formProfile {
+        max-width: 310px;
+    }
+
+    .inputForm {
+        width: 270px;
+        height: 50px;
+    }
+
+    .textDress {
+        font-size: 18px;
+    }
+
+    .buttonForm {
+        width: 270px;
+        height: 50px;
+    }
+
+    .textForm {
+        font-size: 18px;
+    }
+
+    .buttonForm {
+        font-size: 18px;
+    }
+}

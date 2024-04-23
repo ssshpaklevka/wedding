@@ -1,0 +1,121 @@
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  .fadeIn {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .line {
+      display: flex;
+      justify-content: center;
+  }
+  .waveContainer {
+      position: relative;
+      background-color: white; 
+    }
+    
+    .goldWave {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+    }
+    .blockLocationEvent {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px; 
+      margin: 0 auto;
+    }
+
+    .blockLocationEventTwo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 500px;
+        padding: 20px; 
+        margin: 0 auto; 
+      }
+  
+  .textLocation {
+    font-size: clamp(35px,3vw,50px);
+    font-family: 'Sedan', serif;
+    font-weight: 400;
+  }
+    
+  .locationEvent {
+    align-items: center;
+    text-align: center;  
+    }
+
+    .locationMap {
+    align-items: center;
+    text-align: center;
+    }
+    
+  .textInstitution {
+    line-height: 25px;
+    font-size: clamp(16px,3vw,22px);
+    font-family: 'Raleway',Arial,sans-serif;
+    font-weight: 400;
+  }
+
+  .textRestourant {
+    line-height: 25px;
+    font-size: clamp(27px,3vw,33px);
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .withLove {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .textLove {
+    line-height: 25px;
+    font-size: clamp(22px,1.5vw,29px);
+    font-family: 'Raleway',Arial,sans-serif;
+    font-weight: 300;
+  }
+  
+  .namesLovers {
+    font-size: clamp(35px,3vw,50px);
+    font-family: 'Sedan', serif;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .blockMap {
+    position:relative;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  .textMapOne {
+    color:#eee;
+    font-size:12px;
+    position:absolute;
+    top:0px;
+  }
+  
+  .textMapTwo {
+    color:#eee;
+    font-size:12px;
+    position:absolute;
+    top:14px;
+  }
+
+  .mapWidget {
+    position:relative;
+    width: 50%;
+    height: 400px;
+    min-width: 350px;
+    max-width: 700px;
+    
+  }

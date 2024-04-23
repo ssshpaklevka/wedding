@@ -1,0 +1,131 @@
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  .fadeInViewBlock {
+    animation: fadeIn 0s ease-in-out;
+  }
+
+  .fadeInOne {
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  .fadeInOneLine {
+    animation: fadeIn 2.5s ease-in-out;
+  }
+
+  .fadeInTwo {
+    animation: fadeIn 2.7s ease-in-out;
+  }
+
+  .fadeInTwoLine {
+    animation: fadeIn 3.2s ease-in-out;
+  }
+
+  .fadeInThree {
+    animation: fadeIn 3.1s ease-in-out;
+  }
+
+  .fadeInThreeLine {
+    animation: fadeIn 3.6s ease-in-out;
+  }
+
+  .fadeInFour {
+    animation: fadeIn 4.1s ease-in-out;
+  }
+
+  
+
+
+.programDay {
+    align-items: center;
+    text-align: center;
+}
+
+.textProgram {
+    font-size: clamp(35px,3vw,50px);
+    font-family: 'Sedan', serif;
+    font-weight: 400;
+}
+
+.timeFullBlockOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeFullBlockTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeFullBlockThree {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeFullBlockFour {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeText {
+    font-size: clamp(19px,3vw,24px);
+    padding-right: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.gatheringGuests {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.blackLine {
+  height: 90px;
+  border-left: 2px solid black;
+}
+
+.textImg {
+  max-width: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.programInfo {
+  align-items: center;
+  text-align: center;
+  max-width: 390px;
+  padding-left: 20px;
+}
+
+.programTextUp {
+  font-size: clamp(18px,3vw,24px);
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-style: italic;
+  }
+
+.programText {
+  line-height: 25px;
+  font-size: clamp(16px,3vw,22px);
+  font-family: 'Raleway',Arial,sans-serif;
+  font-weight: 400;
+}
+
+.aaaaa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

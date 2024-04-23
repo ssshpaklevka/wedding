@@ -1,0 +1,311 @@
+.waveContainer {
+    background-image: url('/img/backImage.svg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.blockDress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blockDressText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 525px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.dressCode {
+    font-size: clamp(35px,3vw,50px);
+    font-family: 'Sedan', serif;
+    font-weight: 400;
+}
+
+.textDress {
+    font-size: clamp(16px,3vw,22px);
+    font-family: 'Raleway',Arial,sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.nameDress {
+    font-size: clamp(33px,3vw,48px);
+    padding-right: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.colorDivs {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 20px;
+}
+
+.oneColor {
+    position: relative;
+    background-color: black;
+    width: 90px;
+    height: 90px;
+}
+
+.twoColor {
+    position: relative;
+    background-color: #555843;
+    width: 90px;
+    height: 90px;
+    margin-left: 50px;
+}
+
+.threeColor {
+    position: relative;
+    background-color: #919682;
+    width: 90px;
+    height: 90px;
+    margin-left: 50px;
+}
+
+.fourColor {
+    position: relative;
+    background-color: #896251;
+    width: 90px;
+    height: 90px;
+    margin-left: 50px;
+}
+
+.fiveColor {
+    position: relative;
+    background-color: #BB8B75;
+    width: 90px;
+    height: 90px;
+    margin-left: 50px;
+}
+
+.sixColor {
+    position: relative;
+    background-color: #D5AA99;
+    width: 90px;
+    height: 90px;
+    margin-left: 50px;
+}
+
+.sevenColor {
+    position: relative;
+    background-color: #7C8DA1;
+    width: 90px;
+    height: 90px;
+    margin-left: 50px;
+}
+
+.eightColor {
+    position: relative;
+    background-color: #98ADC2;
+    width: 90px;
+    height: 90px;
+    margin-left: 50px;
+}
+
+.overlaySquareBig {
+    width: 85px;
+    height: 85px;
+    border:1px solid #e4c868;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.overlaySquareSmall {
+    width: 75px;
+    height: 75px;
+    border:2px solid #e4c868;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+@media (max-width: 1110px) { 
+    .overlaySquareBig {
+        width: 92px; 
+        height: 92px; 
+        border:1px solid #e4c868;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    .overlaySquareSmall {
+        width: 87px; 
+        height: 87px;
+        border:2px solid #e4c868;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    .colorDivs {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .oneColor {
+        width: 100px;
+        height: 100px;
+    }
+    .twoColor {
+        margin-left: 0px;
+        margin-top: 35px;
+        width: 100px;
+        height: 100px;
+    }
+    .threeColor {
+        margin-left: 0px;
+        margin-top: 35px;
+        width: 100px;
+        height: 100px;
+    }
+    .fourColor {
+        margin-left: 0px;
+        margin-top: 35px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .fiveColor {
+        margin-left: 0px;
+        margin-top: 35px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .sixColor {
+        margin-left: 0px;
+        margin-top: 35px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .sevenColor {
+        margin-left: 0px;
+        margin-top: 35px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .eightColor {
+        margin-left: 0px;
+        margin-top: 35px;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 650px) { 
+    .textDress {
+        max-width: 400px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    
+    .textDress {
+        max-width: 310px;
+    }
+
+    .overlaySquareBig {
+        width: 72px;
+        height: 72px;
+        border:1px solid #e4c868;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    .overlaySquareSmall {
+        width: 67px;
+        height: 67px;
+        border:2px solid #e4c868;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    .colorDivs {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .oneColor {
+        width: 80px;
+        height: 80px;
+    }
+    .twoColor {
+        margin-left: 0px;
+        margin-top: 25px;
+        width: 80px;
+        height: 80px;
+    }
+    .threeColor {
+        margin-left: 0px;
+        margin-top: 25px;
+        width: 80px;
+        height: 80px;
+    }
+    .fourColor {
+        margin-left: 0px;
+        margin-top: 25px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .fiveColor {
+        margin-left: 0px;
+        margin-top: 25px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .sixColor {
+        margin-left: 0px;
+        margin-top: 25px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .sevenColor {
+        margin-left: 0px;
+        margin-top: 25px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .eightColor {
+        margin-left: 0px;
+        margin-top: 25px;
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 530px) {
+    .textDress {
+        font-size: 18px;
+    }
+}
