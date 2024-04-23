@@ -18,7 +18,7 @@ export default function Program() {
     triggerOnce: true,
   })
   return (
-    <div className={styles.waveContainer}>
+    <div>
       <Head>
         <link
           href='https://fonts.googleapis.com/css2?family=Sedan&display=swap'
@@ -41,21 +41,17 @@ export default function Program() {
       <br />
       <br />
       <div className={styles.viewBlock}>
-        <div className={styles.timeFullBlockOne}>
-          <p
-            ref={refOne}
-            className={` ${styles.timeText} ${
-              inViewOne ? styles.fadeInOne : ""
-            }`}
-          >
-            15:00
-          </p>
+        <div
+          ref={refOne}
+          className={` ${styles.timeFullBlockOne} ${
+            inViewOne ? styles.fadeInOne : ""
+          }`}
+        >
+          <p className={styles.timeText}>15:00</p>
           <br />
           <div className={styles.gatheringGuests}>
             <div className={styles.textImg}>
               <Image
-                ref={refOne}
-                className={inViewOne ? styles.fadeInOne : ""}
                 src={"/img/calendarImg.svg"}
                 alt='ringsImg'
                 width={70}
@@ -63,18 +59,8 @@ export default function Program() {
               />
             </div>
             <div className={styles.programInfo}>
-              <p
-                className={` ${styles.programTextUp} ${
-                  inViewOne ? styles.fadeInOne : ""
-                }`}
-              >
-                СБОР ГОСТЕЙ
-              </p>
-              <p
-                className={` ${styles.programText} ${
-                  inViewOne ? styles.fadeInOne : ""
-                }`}
-              >
+              <p className={styles.programTextUp}>СБОР ГОСТЕЙ</p>
+              <p className={styles.programText}>
                 просим взять с собой хорошее настроение и свои улыбки
               </p>
             </div>
