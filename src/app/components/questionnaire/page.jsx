@@ -77,7 +77,7 @@ export default function Questionnarie() {
                 type='radio'
                 value='Да, с удовольствием!'
               />
-              <label className={styles.textForm}> Да, с удовольствием!</label>
+              <label className={styles.textForm}>Да, с удовольствием!</label>
             </div>
             <div>
               <input
@@ -85,7 +85,7 @@ export default function Questionnarie() {
                 type='radio'
                 value='К сожалению, не могу'
               />
-              <label className={styles.textForm}> К сожалению, не могу</label>
+              <label className={styles.textForm}>К сожалению, не могу</label>
             </div>
           </div>
           <br />
@@ -102,7 +102,7 @@ export default function Questionnarie() {
                   type='checkbox'
                   value='Красное сухое вино'
                 />
-                <label className={styles.textForm}> Красное сухое вино</label>
+                <label className={styles.textForm}>Красное сухое вино</label>
               </div>
               <div style={{ marginBottom: 15 }}>
                 <input
@@ -110,11 +110,11 @@ export default function Questionnarie() {
                   type='checkbox'
                   value='Красное п/сл вино'
                 />
-                <label className={styles.textForm}> Красное п/сл вино</label>
+                <label className={styles.textForm}>Красное п/сл вино</label>
               </div>
               <div style={{ marginBottom: 15 }}>
                 <input name='preferences' type='checkbox' value='Белое сухое' />
-                <label className={styles.textForm}> Белое сухое</label>
+                <label className={styles.textForm}>Белое сухое</label>
               </div>
               <div style={{ marginBottom: 15 }}>
                 <input
@@ -122,11 +122,11 @@ export default function Questionnarie() {
                   type='checkbox'
                   value='Белое п/сл сухое'
                 />
-                <label className={styles.textForm}> Белое п/сл сухое</label>
+                <label className={styles.textForm}>Белое п/сл сухое</label>
               </div>
               <div style={{ marginBottom: 15 }}>
                 <input name='preferences' type='checkbox' value='Шампанское' />
-                <label className={styles.textForm}> Шампанское</label>
+                <label className={styles.textForm}>Шампанское</label>
               </div>
               <div style={{ marginBottom: 15 }}>
                 <input
@@ -134,7 +134,7 @@ export default function Questionnarie() {
                   type='checkbox'
                   value='Домашняя настойка'
                 />
-                <label className={styles.textForm}> Домашняя настойка</label>
+                <label className={styles.textForm}>Домашняя настойка</label>
               </div>
               <div style={{ marginBottom: 15 }}>
                 <input
@@ -149,10 +149,11 @@ export default function Questionnarie() {
             </div>
           </div>
           <br />
-
-          <button className={styles.buttonForm} type='submit'>
-            Отправить
-          </button>
+          <div className={styles.buttonBlock}>
+            <button className={styles.buttonForm} type='submit'>
+              Отправить
+            </button>
+          </div>
         </form>
       </div>
       <br />

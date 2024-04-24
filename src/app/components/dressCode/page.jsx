@@ -38,37 +38,42 @@ export default function DressCode() {
         <br />
 
         <div className={styles.colorDivs}>
-          <div className={styles.oneColor}>
-            <div className={styles.overlaySquareBig}></div>
-            <div className={styles.overlaySquareSmall}></div>
+          <div className={styles.colorDivsMedia}>
+            <div className={styles.oneColor}>
+              <div className={styles.overlaySquareBig}></div>
+              <div className={styles.overlaySquareSmall}></div>
+            </div>
+            <div className={styles.twoColor}>
+              <div className={styles.overlaySquareBig}></div>
+              <div className={styles.overlaySquareSmall}></div>
+            </div>
+            <div className={styles.threeColor}>
+              <div className={styles.overlaySquareBig}></div>
+              <div className={styles.overlaySquareSmall}></div>
+            </div>
+            <div className={styles.fourColor}>
+              <div className={styles.overlaySquareBig}></div>
+              <div className={styles.overlaySquareSmall}></div>
+            </div>
+
+            <div className={styles.fiveColor}>
+              <div className={styles.overlaySquareBig}></div>
+              <div className={styles.overlaySquareSmall}></div>
+            </div>
           </div>
-          <div className={styles.twoColor}>
-            <div className={styles.overlaySquareBig}></div>
-            <div className={styles.overlaySquareSmall}></div>
-          </div>
-          <div className={styles.threeColor}>
-            <div className={styles.overlaySquareBig}></div>
-            <div className={styles.overlaySquareSmall}></div>
-          </div>
-          <div className={styles.fourColor}>
-            <div className={styles.overlaySquareBig}></div>
-            <div className={styles.overlaySquareSmall}></div>
-          </div>
-          <div className={styles.fiveColor}>
-            <div className={styles.overlaySquareBig}></div>
-            <div className={styles.overlaySquareSmall}></div>
-          </div>
-          <div className={styles.sixColor}>
-            <div className={styles.overlaySquareBig}></div>
-            <div className={styles.overlaySquareSmall}></div>
-          </div>
-          <div className={styles.sevenColor}>
-            <div className={styles.overlaySquareBig}></div>
-            <div className={styles.overlaySquareSmall}></div>
-          </div>
-          <div className={styles.eightColor}>
-            <div className={styles.overlaySquareBig}></div>
-            <div className={styles.overlaySquareSmall}></div>
+          <div className={styles.colorDivsMedia}>
+            <div className={styles.sixColor}>
+              <div className={styles.overlaySquareBig}></div>
+              <div className={styles.overlaySquareSmall}></div>
+            </div>
+            <div className={styles.sevenColor}>
+              <div className={styles.overlaySquareBig}></div>
+              <div className={styles.overlaySquareSmall}></div>
+            </div>
+            <div className={styles.eightColor}>
+              <div className={styles.overlaySquareBig}></div>
+              <div className={styles.overlaySquareSmall}></div>
+            </div>
           </div>
         </div>
       </div>

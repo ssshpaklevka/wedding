@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 525px;
+    max-width: 550px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -34,6 +34,7 @@
     font-family: 'Raleway',Arial,sans-serif;
     font-weight: 400;
     line-height: 30px;
+    margin-left: 50px;
 }
 
 .nameDress {
@@ -51,70 +52,76 @@
     padding: 20px;
 }
 
+.colorDivsMedia {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
 .oneColor {
     position: relative;
     background-color: black;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
 }
 
 .twoColor {
     position: relative;
     background-color: #555843;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     margin-left: 50px;
 }
 
 .threeColor {
     position: relative;
     background-color: #919682;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     margin-left: 50px;
 }
 
 .fourColor {
     position: relative;
-    background-color: #896251;
-    width: 90px;
-    height: 90px;
+    background-color: #7C8DA1; 
+    width: 100px;
+    height: 100px;
     margin-left: 50px;
 }
 
 .fiveColor {
     position: relative;
-    background-color: #BB8B75;
-    width: 90px;
-    height: 90px;
+    background-color:  #98ADC2; 
+    width: 100px;
+    height: 100px;
     margin-left: 50px;
 }
 
 .sixColor {
     position: relative;
-    background-color: #D5AA99;
-    width: 90px;
-    height: 90px;
+    background-color: #896251;
+    width: 100px;
+    height: 100px;
     margin-left: 50px;
 }
 
 .sevenColor {
     position: relative;
-    background-color: #7C8DA1;
-    width: 90px;
-    height: 90px;
+    background-color: #BB8B75;
+    width: 100px;
+    height: 100px;
     margin-left: 50px;
 }
 
 .eightColor {
     position: relative;
-    background-color: #98ADC2;
-    width: 90px;
-    height: 90px;
+    background-color: #D5AA99;
+    width: 100px;
+    height: 100px;
     margin-left: 50px;
 }
 
-.overlaySquareBig {
+/* .overlaySquareBig {
     width: 85px;
     height: 85px;
     border:1px solid #e4c868;
@@ -132,10 +139,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
-}
+} */
 
-@media (max-width: 1110px) { 
-    .overlaySquareBig {
+@media (max-width: 1190px) { 
+    /* .overlaySquareBig {
         width: 92px; 
         height: 92px; 
         border:1px solid #e4c868;
@@ -153,7 +160,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) rotate(45deg);
-    }
+    } */
 
     .colorDivs {
         display: flex;
@@ -161,55 +168,56 @@
         flex-direction: column;
     }
 
+    .colorDivsMedia {
+        display: flex;
+        align-items: center;
+    }
+
     .oneColor {
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
     .twoColor {
-        margin-left: 0px;
-        margin-top: 35px;
-        width: 100px;
-        height: 100px;
+        margin-left: 20px;
+        width: 90px;
+        height: 90px;
     }
     .threeColor {
-        margin-left: 0px;
-        margin-top: 35px;
-        width: 100px;
-        height: 100px;
+        margin-left: 20px;
+        width: 90px;
+        height: 90px;
     }
     .fourColor {
-        margin-left: 0px;
-        margin-top: 35px;
-        width: 100px;
-        height: 100px;
+        margin-left: 20px;
+        width: 90px;
+        height: 90px;
     }
 
     .fiveColor {
-        margin-left: 0px;
-        margin-top: 35px;
-        width: 100px;
-        height: 100px;
+        margin-left: 20px;
+        width: 90px;
+        height: 90px;
     }
 
     .sixColor {
         margin-left: 0px;
         margin-top: 35px;
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
 
     .sevenColor {
-        margin-left: 0px;
+        margin-left: 20px;
         margin-top: 35px;
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
 
     .eightColor {
-        margin-left: 0px;
+        margin-left: 20px;
         margin-top: 35px;
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
 }
 
@@ -226,9 +234,9 @@
         max-width: 310px;
     }
 
-    .overlaySquareBig {
-        width: 72px;
-        height: 72px;
+    /* .overlaySquareBig {
+        width: 62px; 
+        height: 62px;
         border:1px solid #e4c868;
         position: absolute;
         top: 50%;
@@ -237,14 +245,14 @@
     }
 
     .overlaySquareSmall {
-        width: 67px;
-        height: 67px;
+        width: 57px; 
+        height: 57px;
         border:2px solid #e4c868;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) rotate(45deg);
-    }
+    } */
 
     .colorDivs {
         display: flex;
@@ -253,52 +261,45 @@
     }
 
     .oneColor {
-        width: 80px;
+        width: 80px; 
         height: 80px;
     }
     .twoColor {
-        margin-left: 0px;
-        margin-top: 25px;
+        margin-left: 20px;
         width: 80px;
         height: 80px;
     }
     .threeColor {
-        margin-left: 0px;
-        margin-top: 25px;
+        margin-left: 20px;
         width: 80px;
         height: 80px;
     }
     .fourColor {
-        margin-left: 0px;
-        margin-top: 25px;
+        margin-left: 20px;
         width: 80px;
         height: 80px;
     }
 
     .fiveColor {
-        margin-left: 0px;
-        margin-top: 25px;
+        margin-left: 20px;
         width: 80px;
         height: 80px;
     }
 
     .sixColor {
         margin-left: 0px;
-        margin-top: 25px;
         width: 80px;
         height: 80px;
     }
 
     .sevenColor {
-        margin-left: 0px;
-        margin-top: 25px;
+        margin-left: 20px;
         width: 80px;
         height: 80px;
     }
 
     .eightColor {
-        margin-left: 0px;
-        margin-top: 25px;
+        margin-left: 20px;
         width: 80px;
         height: 80px;
     }
@@ -307,5 +308,159 @@
 @media (max-width: 530px) {
     .textDress {
         font-size: 18px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .colorDivs {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .oneColor {
+        width: 70px; 
+        height: 70px;
+    }
+    .twoColor {
+        margin-left: 20px;
+        width: 70px;
+        height: 70px;
+    }
+    .threeColor {
+        margin-left: 20px;
+        width: 70px;
+        height: 70px;
+    }
+    .fourColor {
+        margin-left: 20px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .fiveColor {
+        margin-left: 20px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .sixColor {
+        margin-left: 0px;
+        width: 70px;
+        height: 70px;
+    }
+    .sevenColor {
+        margin-left: 20px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .eightColor {
+        margin-left: 20px;
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 450px) {
+    .colorDivs {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .oneColor {
+        width: 60px; 
+        height: 60px;
+    }
+    .twoColor {
+        margin-left: 20px;
+        width: 60px;
+        height: 60px;
+    }
+    .threeColor {
+        margin-left: 20px;
+        width: 60px;
+        height: 60px;
+    }
+    .fourColor {
+        margin-left: 20px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .fiveColor {
+        margin-left: 20px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .sixColor {
+        margin-left: 0px;
+        width: 60px;
+        height: 60px;
+    }
+    .sevenColor {
+        margin-left: 20px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .eightColor {
+        margin-left: 20px;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 385px) {
+    .colorDivs {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .oneColor {
+        width: 50px; 
+        height: 50px;
+    }
+    .twoColor {
+        margin-left: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    .threeColor {
+        margin-left: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    .fourColor {
+        margin-left: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .fiveColor {
+        margin-left: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .sixColor {
+        margin-left: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    .sevenColor {
+        margin-left: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .eightColor {
+        margin-left: 20px;
+        width: 50px;
+        height: 50px;
     }
 }
