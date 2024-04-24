@@ -51,17 +51,17 @@ export default function Program() {
           <br />
           <div className={styles.gatheringGuests}>
             <div className={styles.textImg}>
-              <Image
-                src={"/img/calendarImg.svg"}
+              <img
+                src='/img/calendarImg.svg'
                 alt='ringsImg'
-                width={70}
-                height={70}
+                width='70px'
+                height='70px'
               />
             </div>
             <div className={styles.programInfo}>
               <p className={styles.programTextUp}>СБОР ГОСТЕЙ</p>
               <p className={styles.programText}>
-                просим взять с собой хорошее настроение и свои улыбки
+                Просим взять с собой хорошее настроение и свои улыбки
               </p>
             </div>
           </div>
@@ -83,22 +83,22 @@ export default function Program() {
             inViewTwo ? styles.fadeInTwo : ""
           }`}
         >
-          <p className={styles.timeText}>16:00</p>
+          <p className={styles.timeText}>15:40</p>
           <br />
           <div className={styles.gatheringGuests}>
             <div className={styles.textImg}>
-              <Image
-                src={"/img/ringsImg.svg"}
+              <img
+                src='/img/ringsImg.svg'
                 alt='ringsImg'
-                width={70}
-                height={70}
+                width='70px'
+                height='70px'
               />
             </div>
             <div className={styles.programInfo}>
               <p className={styles.programTextUp}>РЕГИСТРАЦИЯ БРАКА</p>
 
               <p className={styles.programText}>
-                просим взять с собой хорошее настроение и свои улыбки
+                Адрес: ЗАГС №1, Октябрьский проспект, 3г
               </p>
             </div>
           </div>
@@ -124,18 +124,18 @@ export default function Program() {
           <br />
           <div className={styles.gatheringGuests}>
             <div className={styles.textImg}>
-              <Image
-                src={"/img/instrumentationImg.svg"}
-                alt='instrumentationImg'
-                width={70}
-                height={70}
+              <img
+                src='/img/instrumentationImg.svg'
+                alt='ringsImg'
+                width='70px'
+                height='70px'
               />
             </div>
             <div className={styles.programInfo}>
               <p className={styles.programTextUp}>БАНКЕТ</p>
 
               <p className={styles.programText}>
-                время вкусной еды, танцев и развлечения
+                Время вкусной еды, танцев и развлечения
               </p>
             </div>
           </div>
@@ -161,18 +161,18 @@ export default function Program() {
           <br />
           <div className={styles.gatheringGuests}>
             <div className={styles.textImg}>
-              <Image
-                src={"/img/carImg.svg"}
-                alt='carImg'
-                width={70}
-                height={70}
+              <img
+                src='/img/carImg.svg'
+                alt='ringsImg'
+                width='70px'
+                height='70px'
               />
             </div>
             <div className={styles.programInfo}>
               <p className={styles.programTextUp}>ЗАВЕРШЕНИЕ ВЕЧЕРА</p>
 
               <p className={styles.programText}>
-                к сожалению, даже такой прекрасный день может закончиться
+                К сожалению, даже такой прекрасный день может закончиться
               </p>
             </div>
           </div>
