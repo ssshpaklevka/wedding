@@ -110,7 +110,9 @@ export default function Questionnarie() {
                     type='checkbox'
                     value='Красное п/сл вино'
                   />
-                  <label className={styles.textForm}>Красное п/сл вино</label>
+                  <label className={styles.textForm}>
+                    Красное полусладкое вино
+                  </label>
                 </div>
                 <div style={{ marginBottom: 15 }}>
                   <input
@@ -118,7 +120,7 @@ export default function Questionnarie() {
                     type='checkbox'
                     value='Белое сухое'
                   />
-                  <label className={styles.textForm}>Белое сухое</label>
+                  <label className={styles.textForm}>Белое сухое вино</label>
                 </div>
                 <div style={{ marginBottom: 15 }}>
                   <input
@@ -126,7 +128,9 @@ export default function Questionnarie() {
                     type='checkbox'
                     value='Белое п/сл сухое'
                   />
-                  <label className={styles.textForm}>Белое п/сл сухое</label>
+                  <label className={styles.textForm}>
+                    Белое полусладкое вино
+                  </label>
                 </div>
                 <div style={{ marginBottom: 15 }}>
                   <input
@@ -142,7 +146,7 @@ export default function Questionnarie() {
                     type='checkbox'
                     value='Домашняя настойка'
                   />
-                  <label className={styles.textForm}>Домашняя настойка</label>
+                  <label className={styles.textForm}>Крепкие напитки</label>
                 </div>
                 <div style={{ marginBottom: 15 }}>
                   <input
