@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   Алкогольные предпочтения: ${preferences.join(", ")}
   `
 
-    const chatIDs = [1296798089, 725620369, 6598078399]
+    const chatIDs = [1296798089, 725620369]
 
     chatIDs.forEach(async chatId => {
       const url = `https://api.telegram.org/bot6921234451:AAHhQhmQSQ2HG8t_DPhFqHKcOPd5g5VEu_Y/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(
