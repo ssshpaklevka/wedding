@@ -144,7 +144,7 @@ export default function Questionnarie() {
                   <input
                     name='preferences'
                     type='checkbox'
-                    value='Домашняя настойка'
+                    value='Крепкие напитки'
                   />
                   <label className={styles.textForm}>Крепкие напитки</label>
                 </div>
