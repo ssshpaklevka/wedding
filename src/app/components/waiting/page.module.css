@@ -2,3 +2,38 @@
     display: flex;
     justify-content: center;
 }
+
+.invitationTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.patienceText {
+    margin-top: 70px;
+    font-family: "Comforter";
+    font-weight: 400;
+    font-style: italic;
+    font-size: clamp(45px, 3vw, 60px);
+    letter-spacing: 2px;
+}
+
+.waitingText {
+    margin-bottom: 70px;
+    font-family: "Comforter";
+    font-weight: 400;
+    font-style: italic;
+    font-size: clamp(45px, 3vw, 60px);
+    letter-spacing: 2px;
+}
+
+@media (max-width: 340px) {
+    .patienceText {
+        font-size: clamp(38px, 3vw, 40px);
+    }
+    
+    .waitingText {
+        font-size: clamp(38px, 3vw, 40px);
+    }
+}

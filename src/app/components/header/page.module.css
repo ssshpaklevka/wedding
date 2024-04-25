@@ -2,3 +2,39 @@
     display: flex;
     justify-content: center;
 }
+
+.invitationTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.inviteText {
+    margin-top: 90px;
+    font-family: "Comforter";
+    font-weight: 400;
+    font-style: italic;
+    font-size: clamp(45px, 3vw, 60px);
+    letter-spacing: 2px;
+}
+
+.weddingText {
+    margin-bottom: 50px;
+    font-family: "Comforter";
+    font-weight: 400;
+    font-style: italic;
+    font-size: clamp(45px, 3vw, 60px);
+    letter-spacing: 2px;
+}
+
+@media (max-width: 340px) {
+    .inviteText {
+        font-size: clamp(38px, 3vw, 40px);
+    }
+    
+    .weddingText {
+        font-size: clamp(38px, 3vw, 40px);
+    }
+}

@@ -47,7 +47,7 @@ export default function Program() {
             inViewOne ? styles.fadeInOne : ""
           }`}
         >
-          <p className={styles.timeText}>15:00</p>
+          <p className={styles.timeText}>15:20</p>
           <br />
           <div className={styles.gatheringGuests}>
             <div className={styles.textImg}>
