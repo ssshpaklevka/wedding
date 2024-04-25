@@ -108,7 +108,7 @@ export default function Questionnarie() {
                   <input
                     name='preferences'
                     type='checkbox'
-                    value='Красное п/сл вино'
+                    value='Красное полусладкое вино'
                   />
                   <label className={styles.textForm}>
                     Красное полусладкое вино
@@ -118,7 +118,7 @@ export default function Questionnarie() {
                   <input
                     name='preferences'
                     type='checkbox'
-                    value='Белое сухое'
+                    value='Белое сухое вино'
                   />
                   <label className={styles.textForm}>Белое сухое вино</label>
                 </div>
@@ -126,7 +126,7 @@ export default function Questionnarie() {
                   <input
                     name='preferences'
                     type='checkbox'
-                    value='Белое п/сл сухое'
+                    value='Белое полусладкое вино'
                   />
                   <label className={styles.textForm}>
                     Белое полусладкое вино
